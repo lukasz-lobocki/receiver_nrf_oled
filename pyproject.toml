@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "receiver_nrf_oled"
+version = "0.5.2"
+description = "Receiving end of temperature, pressure, humidity."
+authors = ["Lukasz Lobocki"]
+license = "CC0 v1.0 Universal"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.group.dev.dependencies]
+python-semantic-release = "^8.0.4"
+adafruit-ampy = "^1.1.0"
+
+[tool.semantic_release]
+version_toml = ["pyproject.toml:tool.poetry.version"]
+commit_author = "lukasz-lobocki <lukasz.lobocki@googlemail.com>"
+
+
+[tool.semantic_release.remote.token]
+env = "GH_TOKEN"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
