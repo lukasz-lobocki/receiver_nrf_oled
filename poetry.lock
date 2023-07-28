@@ -219,6 +219,81 @@ MarkupSafe = ">=2.0"
 i18n = ["Babel (>=2.7)"]
 
 [[package]]
+name = "lobo-font-to-py"
+version = "0.2.4"
+description = "Utility to convert fonts to Python."
+optional = false
+python-versions = "^3.10"
+files = []
+develop = true
+
+[package.source]
+type = "git"
+url = "git@github.com:lukasz-lobocki/lobo_font_to_py"
+reference = "HEAD"
+resolved_reference = "603f9b839590df8faa3587c30cacbc0bf7eefce8"
+
+[[package]]
+name = "lobo-nrf24l01"
+version = "0.2.4"
+description = "Driver for nrf24l01."
+optional = false
+python-versions = "^3.10"
+files = []
+develop = true
+
+[package.source]
+type = "git"
+url = "git@github.com:lukasz-lobocki/lobo_nrf24l01"
+reference = "HEAD"
+resolved_reference = "48efc2b33ebdc13f0b821bc5b6cae46ac37fc535"
+
+[[package]]
+name = "lobo-rig"
+version = "0.4.6"
+description = "Pin variables for my controllers."
+optional = false
+python-versions = "^3.10"
+files = []
+develop = true
+
+[package.source]
+type = "git"
+url = "git@github.com:lukasz-lobocki/lobo_rig"
+reference = "HEAD"
+resolved_reference = "0863f88bab7f46ff0f2e70d33fb05f3c384f85ff"
+
+[[package]]
+name = "lobo-sh1106"
+version = "0.2.3"
+description = "Driver for the SH1106 display."
+optional = false
+python-versions = "^3.10"
+files = []
+develop = true
+
+[package.source]
+type = "git"
+url = "git@github.com:lukasz-lobocki/lobo_sh1106"
+reference = "HEAD"
+resolved_reference = "367a2a7b5a7e7dea1c30f79973e737c5dca276a6"
+
+[[package]]
+name = "lobo-wireless"
+version = "0.2.3"
+description = "WLAN connect module."
+optional = false
+python-versions = "^3.10"
+files = []
+develop = true
+
+[package.source]
+type = "git"
+url = "git@github.com:lukasz-lobocki/lobo_wireless"
+reference = "HEAD"
+resolved_reference = "a30066d72cc3cde5b1c6c52674e885c8f0806f8b"
+
+[[package]]
 name = "markdown-it-py"
 version = "3.0.0"
 description = "Python port of markdown-it. Markdown parsing, done right!"
@@ -572,4 +647,4 @@ zstd = ["zstandard (>=0.18.0)"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "ec3dd729b53f8517c43cb72e434b025da5f7ea461760c3348b9a9b371a7cad13"
+content-hash = "9a3fd4bdc94a80bf443367bd2f14d6eb121c1d5fa3d8012e6a44bf57ec323adc"
