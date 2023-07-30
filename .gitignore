@@ -1,7 +1,7 @@
 # Lobo
 *credentials*
 __scratch__/
-.idea/
+# .idea/
 sub/
 .venv/
 
