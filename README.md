@@ -5,7 +5,8 @@ Receiving end of temperature, pressure, humidity.
 ## Installation as a submodule
 
 ```bash
-poetry add --editable git+ssh://git@github.com/lukasz-lobocki/receiver_nrf_oled.git
+poetry add --editable \
+  git+ssh://git@github.com/lukasz-lobocki/receiver_nrf_oled.git
 ```
 
 ## License
