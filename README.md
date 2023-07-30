@@ -1,4 +1,4 @@
-# receiver_nrf_oled
+# receiver_nrf_oled ![Static](https://img.shields.io/badge/ikona-marmur-beige?style=for-the-badge&labelColor=maroon)
 
 Receiving end of temperature, pressure, humidity.
 

@@ -14,7 +14,9 @@ git commit -m "fix: change"
 poetry run semantic-release version
 ```
 
-:no_entry: There is **no need** for separate `git push`. It is done by `semantic-release`.
+```bash
+git push
+```
 
 ## Cookiecutter initiation
 
