@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "receiver_nrf_oled"
-version = "0.5.3"
+version = "0.6.0"
 description = "Receiving end of temperature, pressure, humidity."
 authors = ["Lukasz Lobocki"]
 license = "CC0 v1.0 Universal"
