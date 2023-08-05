@@ -2,6 +2,13 @@
 
 
 
+## v0.6.1 (2023-08-05)
+
+### Fix
+
+* fix: lobo_wireless update. ([`9ed7400`](https://github.com/lukasz-lobocki/receiver_nrf_oled/commit/9ed740015ae02069f8705139028a22196a1cdcb7))
+
+
 ## v0.6.0 (2023-08-05)
 
 ### Build
