@@ -81,7 +81,7 @@ def receive(nrf: nrf24l01.NRF24L01, display: sh1106.SH1106_I2C = None, writer: W
             print("r {t:.1f} {p:.1f} {h:.1f}".format(t=got[0], p=got[1], h=got[2]))
             if display is not None:
                 line_print(display, writer,
-                           "r {t:.1f} {p:.0f} {h:.0f} {g:02d}:{m:02d}Z".format(t=got[0], p=got[1], h=got[2],
+                           "r {t:.1f} {p:.0f} {h:.0f} {g:02d}:{m:02d}".format(t=got[0], p=got[1], h=got[2],
                                                                                g=time.localtime()[3],
                                                                                m=time.localtime()[4])
                            )
