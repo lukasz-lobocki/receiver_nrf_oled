@@ -295,7 +295,7 @@ resolved_reference = "367a2a7b5a7e7dea1c30f79973e737c5dca276a6"
 
 [[package]]
 name = "lobo-wireless"
-version = "0.2.3"
+version = "0.2.4"
 description = "WLAN connect module."
 optional = false
 python-versions = "^3.10"
@@ -306,7 +306,7 @@ develop = true
 type = "git"
 url = "git@github.com:lukasz-lobocki/lobo_wireless"
 reference = "HEAD"
-resolved_reference = "a30066d72cc3cde5b1c6c52674e885c8f0806f8b"
+resolved_reference = "8e19910a221c430da6ba1d72c92a5fd098eab62e"
 
 [[package]]
 name = "markdown-it-py"
@@ -582,13 +582,13 @@ requests = ">=2.0.1,<3.0.0"
 
 [[package]]
 name = "rich"
-version = "13.5.0"
+version = "13.5.2"
 description = "Render rich text, tables, progress bars, syntax highlighting, markdown and more to the terminal"
 optional = false
 python-versions = ">=3.7.0"
 files = [
-    {file = "rich-13.5.0-py3-none-any.whl", hash = "sha256:996670a7618ccce27c55ba6fc0142e6e343773e11d34c96566a17b71b0e6f179"},
-    {file = "rich-13.5.0.tar.gz", hash = "sha256:62c81e88dc078d2372858660e3d5566746870133e51321f852ccc20af5c7e7b2"},
+    {file = "rich-13.5.2-py3-none-any.whl", hash = "sha256:146a90b3b6b47cac4a73c12866a499e9817426423f57c5a66949c086191a8808"},
+    {file = "rich-13.5.2.tar.gz", hash = "sha256:fb9d6c0a0f643c99eed3875b5377a184132ba9be4d61516a55273d3554d75a39"},
 ]
 
 [package.dependencies]
