@@ -249,6 +249,21 @@ reference = "HEAD"
 resolved_reference = "48efc2b33ebdc13f0b821bc5b6cae46ac37fc535"
 
 [[package]]
+name = "lobo-query-local-time"
+version = "0.2.0"
+description = "Queries worldtimeapi and returns RTC datetime tuple."
+optional = false
+python-versions = "^3.10"
+files = []
+develop = true
+
+[package.source]
+type = "git"
+url = "ssh://git@github.com/lukasz-lobocki/lobo_query_local_time"
+reference = "HEAD"
+resolved_reference = "fbe594064a7e36900aa624502983ccac278d03de"
+
+[[package]]
 name = "lobo-rig"
 version = "0.4.6"
 description = "Pin variables for my controllers."
@@ -647,4 +662,4 @@ zstd = ["zstandard (>=0.18.0)"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "9a3fd4bdc94a80bf443367bd2f14d6eb121c1d5fa3d8012e6a44bf57ec323adc"
+content-hash = "bbd628211709cf499dae611baee065039d2d4dcef2d2b1b9c935791404de0712"

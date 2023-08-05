@@ -3,7 +3,8 @@
 import machine
 import time
 import struct
-import ntptime
+
+import sub.lobo_query_local_time as lobo_query_local_time
 
 from sub.pin import *
 
@@ -138,7 +139,9 @@ _wlan = wireless.Wireless(ssid=credentials_wifi.ssid, password=credentials_wifi.
 print(_wlan.connect())
 assert _wlan.isconnected is True, "wireless network not connected"
 
-ntptime.settime()
+rtc = machine.RTC()
+rtc.datetime(lobo_query_local_time.get_local_datetime())
+print(rtc.datetime())
 
 # nRF24l01
 _nrf = nrf_setup()

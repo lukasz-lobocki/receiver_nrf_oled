@@ -13,6 +13,7 @@ lobo-rig = {git = "git@github.com:lukasz-lobocki/lobo_rig", develop = true}
 lobo-sh1106 = {git = "git@github.com:lukasz-lobocki/lobo_sh1106", develop = true}
 lobo-wireless = {git = "git@github.com:lukasz-lobocki/lobo_wireless", develop = true}
 lobo-font-to-py = {git = "git@github.com:lukasz-lobocki/lobo_font_to_py", develop = true}
+lobo-query-local-time = {git = "ssh://git@github.com/lukasz-lobocki/lobo_query_local_time", develop = true}
 
 [tool.poetry.dev-dependencies]
 
